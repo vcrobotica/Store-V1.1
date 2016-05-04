@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="principal" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" placeholderIntrinsicWidth="600" placeholderIntrinsicHeight="600" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FONDO_MORADO.png" translatesAutoresizingMaskIntoConstraints="NO" id="cD6-dM-0YI">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INICIALIZANDO Y CONTANDO CÁPSULAS" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGR-s4-nJn">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="92" y="385" width="563" height="291"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENTREGANDO ORDEN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xC6-8C-Fez">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="81" y="485" width="647" height="54"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DESCRIPCION_BARISTA.png" translatesAutoresizingMaskIntoConstraints="NO" id="PiK-Su-cBe">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HOLA.png" translatesAutoresizingMaskIntoConstraints="NO" id="m4A-3S-6mQ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boton_seleccionar.png" translatesAutoresizingMaskIntoConstraints="NO" id="OxK-4K-dnj">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="457" y="650" width="232" height="232"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BOTON_PRECIO_COMPRA_CAPPUCCINO.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rnn-T0-m0h">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L3z-8p-0Y8">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PASO1_5.png" translatesAutoresizingMaskIntoConstraints="NO" id="fLk-8l-nWh">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Init" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFJ-GW-LGb">
+                                <rect key="frame" x="181" y="165" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="132" y="0.0" width="191" height="20"/>
+                                </variation>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xin-lf-eCs">
+                                <rect key="frame" x="100" y="376" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="460" y="776" width="140" height="24"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="670" y="37" width="82" height="28"/>
+                                </variation>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$10.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxp-W6-vHk">
+                                <rect key="frame" x="433" y="376" width="151" height="50"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="442" y="740" width="269" height="66"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="INGRESADO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0g-5A-vJc">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="475" y="650" width="214" height="54"/>
+                                </variation>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6WF-xB-8Le">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="¿Cómo preparo mi café?">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="217" y="902" width="334" height="44"/>
+                                </variation>
+                                <connections>
+                                    <action selector="video:" destination="BYZ-38-t0r" eventType="touchDown" id="vk8-j4-u3X"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzK-P9-9AC">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Detener Video">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="281" y="904" width="206" height="42"/>
+                                </variation>
+                                <connections>
+                                    <action selector="detenerVideo:" destination="BYZ-38-t0r" eventType="touchDown" id="cPv-n7-Mfg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="If9-VA-hn4">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="30"/>
+                                <state key="normal" title=" CANCELAR ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="469" y="850" width="210" height="52"/>
+                                </variation>
+                                <connections>
+                                    <action selector="cancelarBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="PTB-0o-tYd"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z7V-hD-9rM">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="82" width="97" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="enterPassword:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="CAI-9Y-hRv"/>
+                                    <action selector="enterPassword:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Fjf-Gg-buz"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7k-iH-HCt">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Ingresar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="668" y="37" width="100" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="ingresarBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="iaz-uJ-xNQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSh-nm-w3L">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.31102285899999998" green="0.028915122840000002" blue="0.43183791040000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <state key="normal" title="Enviar Reporte">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="647" y="80" width="119" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="EnviarReporteBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="ZHD-Ed-Yti"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GH2-UX-Ouz">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.084517288590000003" green="1" blue="0.53627418260000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Llenar Tanque">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="662" y="120" width="105" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="LlenarTanqueBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="LBc-PC-Jfg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQj-SD-367">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Vaciar">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="668" y="160" width="100" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="vaciarBtnAction:" destination="BYZ-38-t0r" eventType="touchDown" id="m95-Mc-Hek"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8MN-n0-Zfk">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VARIEDADES.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tbz-bp-dFD">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" image="YES" notEnabled="YES"/>
+                                </accessibility>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9XG-sJ-C86">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="americano" image="AMERICANO.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="139" y="342" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="americanoBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="C4y-sI-sXI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AzJ-JR-GxZ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="aroma" image="AROMA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="457" y="432" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="aromaBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="fNN-e6-u8y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="024-XI-Rfh">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="grande intenso" image="GRANDE_INTENSO.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="202" y="432" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="aromaIntensoBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="gyJ-4P-oU4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9a-Vd-CJH">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="cafe au lait" image="CAFE-AU-LAIT.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="331" y="187" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="cafeAuLaitBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="LNA-yi-Yk1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rQ-9G-Rj6">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="caffe lungo decaf" image="LUNGO DECAFFEINATO.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="520" y="342" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="lungoDecaffeinatoBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="nX9-AE-A9u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TyD-P2-tQd">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="caffe lungo intenso" image="LUNGO INTENSO.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="394" y="341" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="lungoIntensoBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="nfO-4g-y5F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oXa-9c-CrJ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="cappuccino" image="CAPPUCCINO.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="393" y="97" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="cappuccinoBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="cNk-67-3FS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zm5-Ta-yfA">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="cappuccino ice" image="CAPPUCCINO-ICE.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="202" y="187" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="cappuccinoIceBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="bUB-vv-dqT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJO-Ph-WYe">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="chococaramel" image="CHOCOCARAMEL.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="265" y="827" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="chocoCaramelBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="Y7r-sS-Vqd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y83-Xx-ZkQ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="chococino" image="CHOCOCINO.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="139" y="827" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="chococinoBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="Rx3-fj-5gf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKg-21-PUe">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="cortado" image="CORTADO.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="457" y="677" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="espressoCortadoBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="hoV-4Q-fKn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buf-iU-tCW">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="espresso" image="ESPRESSO.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="394" y="587" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="espressoBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="EWF-PK-ReI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuN-jN-fHN">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="espresso barista" image="ESPRESSO-BARISTA-OK.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="139" y="588" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="espressoBaristaBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="spr-5P-zto"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WpA-tH-XIP">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="espresso decaf" image="ESPRESSO-DECAF.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="520" y="586" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="espressoDecafBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="CgD-gW-R3C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hv8-4d-bQW">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="espresso intenso" image="ESPRESSO-INTENSO.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="265" y="588" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="espressoIntensoBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="7kM-Vw-2VX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wR-sh-l7o">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="latte macchiato" image="LATTE-MACCHIATO.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="140" y="96" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="latteMacchiatoBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="Ch3-3z-MW3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZmJ-Sl-HG2">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="latte macchiato caramel" image="LATTE-MACCHIATO-CARAMEL.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="265" y="96" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="latteMacchiatoCaramelBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="iPQ-f0-Joo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9f-5n-dPb">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="chai tea latte" image="LATTE-TE-CHAI.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="520" y="827" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="chaiTeaLatteBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="C7y-oX-1H7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="orb-2J-OJL">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="marrakesh" image="MARRAKESH-STYLE-TEA-OK.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="393" y="827" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="marrakeshStyleTeaBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="H5a-nE-T7n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nx3-2A-qTA">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="espresso ristretto" image="RISTRETTO-ARDENZA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="202" y="677" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="espressoRistrettoBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="vZh-f5-768"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="poc-pa-Xn5">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="latte macchiato vanilla" image="VAINILLA-LATTE-MACHIATTO-CAFE.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="456" y="188" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="latteMacchiatoVanillaBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="wFN-zv-7tY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blQ-s4-pg6">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="cappuccino light" image="CAPPUCCINO-LIGHT.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="520" y="97" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="cappuccinoSkinnyBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="1Gf-wk-WsV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLv-vT-PEu">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="caffe lungo" image="LUNGO.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="265" y="341" width="107" height="139"/>
+                                </variation>
+                                <connections>
+                                    <action selector="lungoBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="XMp-M9-CE3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gec-E8-PVM" userLabel="flecha_izq">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="flecha_atras_blanca_big.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="500" y="930" width="77" height="77"/>
+                                </variation>
+                                <connections>
+                                    <action selector="flechaIzqBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="heI-V5-Tj9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFa-HB-qSp" userLabel="flecha_der">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="flecha_adelante_blanca_big.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="600" y="930" width="77" height="77"/>
+                                </variation>
+                                <connections>
+                                    <action selector="flechaDerBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="GF9-QM-WFb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vQv-9l-W13">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="menu_palabra_gris.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="960" width="80" height="27"/>
+                                </variation>
+                                <connections>
+                                    <action selector="menuBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="x4V-7j-N9i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9hU-aW-lLe">
+                                <rect key="frame" x="181" y="303" width="78" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="68" y="261" width="78" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="487" y="668" width="179" height="181"/>
+                                </variation>
+                                <connections>
+                                    <action selector="comprarBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="vbV-Mj-SEL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7m-rq-zwu">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="50"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PLECA_LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="439-g0-pBd">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGC-hl-jE7">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="50"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="225" y="500" width="320" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="loadPreparaBebida:" destination="BYZ-38-t0r" eventType="touchDown" id="pmu-ji-E28"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BOTON_PREPARA_BEBIDA_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="SYh-IH-ifK">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvj-WH-Pva">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="50"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="225" y="670" width="320" height="77"/>
+                                </variation>
+                                <connections>
+                                    <action selector="loadPreparaPaquete:" destination="BYZ-38-t0r" eventType="touchDown" id="Qwb-WI-Rex"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BOTON_COMPRA_PAQUETE_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="mPb-p7-mnI">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iS-fq-bRZ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="225" y="370" width="320" height="77"/>
+                                </variation>
+                                <connections>
+                                    <action selector="loadPreparaBebida:" destination="BYZ-38-t0r" eventType="touchDown" id="lIG-Ka-ydi"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BOTON_PREPARA_BEBIDA_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pt6-6n-hNB">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="EH9-Xl-ht8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="470" width="320" height="540"/>
+                                </variation>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="pUN-cg-lN9"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Ioj-Ns-o3V"/>
+                                </connections>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BOTONES_MENOS_MAS.png" translatesAutoresizingMaskIntoConstraints="NO" id="4fc-6U-8rb">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="flW-pV-zt6">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="500" y="778" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="menosBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="Xgc-yc-XIb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYK-az-WQ8">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="567" y="778" width="60" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="masBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="8SP-SR-zxE"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VINETAS_TOTAL_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="dcw-JM-nRn">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwU-HW-4aX">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="21"/>
+                                <color key="textColor" red="0.34092881944444442" green="0.0" blue="0.34082445302092806" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="2" height="2"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="642" y="590" width="37" height="21"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AMERICANO.png" translatesAutoresizingMaskIntoConstraints="NO" id="UNu-kd-8pq">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="496" y="630" width="132" height="169"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BOTON_COMPRAR.png" translatesAutoresizingMaskIntoConstraints="NO" id="qBD-t1-oRo">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyE-IB-VWU">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="451" y="875" width="225" height="50"/>
+                                </variation>
+                                <connections>
+                                    <action selector="comprarPaqueteBtnAction:" destination="BYZ-38-t0r" eventType="touchDown" id="vty-7J-b2E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JwW-4O-rmg">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="BOTON_REGRESA_PAQUETE2.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="224" y="28" width="320" height="77"/>
+                                </variation>
+                                <connections>
+                                    <action selector="loadPreparaPaquete:" destination="BYZ-38-t0r" eventType="touchDown" id="RQ8-Xp-dov"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PAGADO_PRECIO2.png" translatesAutoresizingMaskIntoConstraints="NO" id="smc-Cg-Y5t">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4c-6O-vsX">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="23"/>
+                                <color key="textColor" red="0.34092881940000003" green="0.0" blue="0.34082445300000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="550" y="822" width="133" height="31"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BOTON_CANCELAR.png" translatesAutoresizingMaskIntoConstraints="NO" id="ddW-mq-C8G">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYo-Ds-o1N">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="450" y="870" width="225" height="61"/>
+                                </variation>
+                                <connections>
+                                    <action selector="cancelarPaqueteBtn:" destination="BYZ-38-t0r" eventType="touchDown" id="AAY-oQ-crN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJM-cL-Wow">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="3" y="54" width="759" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUd-F5-Ytl">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="20" width="755" height="40"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CAMBIO_LB.png" translatesAutoresizingMaskIntoConstraints="NO" id="kG1-5F-uLm">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="cD6-dM-0YI"/>
+                                <exclude reference="ZGR-s4-nJn"/>
+                                <exclude reference="xC6-8C-Fez"/>
+                                <exclude reference="PiK-Su-cBe"/>
+                                <exclude reference="m4A-3S-6mQ"/>
+                                <exclude reference="OxK-4K-dnj"/>
+                                <exclude reference="Rnn-T0-m0h"/>
+                                <exclude reference="L3z-8p-0Y8"/>
+                                <exclude reference="fLk-8l-nWh"/>
+                                <exclude reference="R0g-5A-vJc"/>
+                                <exclude reference="6WF-xB-8Le"/>
+                                <exclude reference="xzK-P9-9AC"/>
+                                <exclude reference="If9-VA-hn4"/>
+                                <exclude reference="Z7V-hD-9rM"/>
+                                <exclude reference="U7k-iH-HCt"/>
+                                <exclude reference="bSh-nm-w3L"/>
+                                <exclude reference="GH2-UX-Ouz"/>
+                                <exclude reference="FQj-SD-367"/>
+                                <exclude reference="8MN-n0-Zfk"/>
+                                <exclude reference="Tbz-bp-dFD"/>
+                                <exclude reference="9XG-sJ-C86"/>
+                                <exclude reference="AzJ-JR-GxZ"/>
+                                <exclude reference="024-XI-Rfh"/>
+                                <exclude reference="B9a-Vd-CJH"/>
+                                <exclude reference="8rQ-9G-Rj6"/>
+                                <exclude reference="TyD-P2-tQd"/>
+                                <exclude reference="oXa-9c-CrJ"/>
+                                <exclude reference="zm5-Ta-yfA"/>
+                                <exclude reference="cJO-Ph-WYe"/>
+                                <exclude reference="y83-Xx-ZkQ"/>
+                                <exclude reference="AKg-21-PUe"/>
+                                <exclude reference="buf-iU-tCW"/>
+                                <exclude reference="ZuN-jN-fHN"/>
+                                <exclude reference="WpA-tH-XIP"/>
+                                <exclude reference="Hv8-4d-bQW"/>
+                                <exclude reference="2wR-sh-l7o"/>
+                                <exclude reference="ZmJ-Sl-HG2"/>
+                                <exclude reference="i9f-5n-dPb"/>
+                                <exclude reference="orb-2J-OJL"/>
+                                <exclude reference="nx3-2A-qTA"/>
+                                <exclude reference="poc-pa-Xn5"/>
+                                <exclude reference="blQ-s4-pg6"/>
+                                <exclude reference="KLv-vT-PEu"/>
+                                <exclude reference="gec-E8-PVM"/>
+                                <exclude reference="aFa-HB-qSp"/>
+                                <exclude reference="vQv-9l-W13"/>
+                                <exclude reference="r7m-rq-zwu"/>
+                                <exclude reference="439-g0-pBd"/>
+                                <exclude reference="tGC-hl-jE7"/>
+                                <exclude reference="SYh-IH-ifK"/>
+                                <exclude reference="kvj-WH-Pva"/>
+                                <exclude reference="mPb-p7-mnI"/>
+                                <exclude reference="0iS-fq-bRZ"/>
+                                <exclude reference="Pt6-6n-hNB"/>
+                                <exclude reference="EH9-Xl-ht8"/>
+                                <exclude reference="4fc-6U-8rb"/>
+                                <exclude reference="flW-pV-zt6"/>
+                                <exclude reference="oYK-az-WQ8"/>
+                                <exclude reference="dcw-JM-nRn"/>
+                                <exclude reference="bwU-HW-4aX"/>
+                                <exclude reference="UNu-kd-8pq"/>
+                                <exclude reference="qBD-t1-oRo"/>
+                                <exclude reference="dyE-IB-VWU"/>
+                                <exclude reference="JwW-4O-rmg"/>
+                                <exclude reference="smc-Cg-Y5t"/>
+                                <exclude reference="n4c-6O-vsX"/>
+                                <exclude reference="ddW-mq-C8G"/>
+                                <exclude reference="RYo-Ds-o1N"/>
+                                <exclude reference="PJM-cL-Wow"/>
+                                <exclude reference="oUd-F5-Ytl"/>
+                                <exclude reference="kG1-5F-uLm"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="cD6-dM-0YI"/>
+                                <include reference="ZGR-s4-nJn"/>
+                                <include reference="xC6-8C-Fez"/>
+                                <include reference="PiK-Su-cBe"/>
+                                <include reference="m4A-3S-6mQ"/>
+                                <include reference="OxK-4K-dnj"/>
+                                <include reference="Rnn-T0-m0h"/>
+                                <include reference="L3z-8p-0Y8"/>
+                                <include reference="fLk-8l-nWh"/>
+                                <include reference="R0g-5A-vJc"/>
+                                <include reference="6WF-xB-8Le"/>
+                                <include reference="xzK-P9-9AC"/>
+                                <include reference="If9-VA-hn4"/>
+                                <include reference="Z7V-hD-9rM"/>
+                                <include reference="U7k-iH-HCt"/>
+                                <include reference="bSh-nm-w3L"/>
+                                <include reference="GH2-UX-Ouz"/>
+                                <include reference="FQj-SD-367"/>
+                                <include reference="8MN-n0-Zfk"/>
+                                <include reference="Tbz-bp-dFD"/>
+                                <include reference="9XG-sJ-C86"/>
+                                <include reference="AzJ-JR-GxZ"/>
+                                <include reference="024-XI-Rfh"/>
+                                <include reference="B9a-Vd-CJH"/>
+                                <include reference="8rQ-9G-Rj6"/>
+                                <include reference="TyD-P2-tQd"/>
+                                <include reference="oXa-9c-CrJ"/>
+                                <include reference="zm5-Ta-yfA"/>
+                                <include reference="cJO-Ph-WYe"/>
+                                <include reference="y83-Xx-ZkQ"/>
+                                <include reference="AKg-21-PUe"/>
+                                <include reference="buf-iU-tCW"/>
+                                <include reference="ZuN-jN-fHN"/>
+                                <include reference="WpA-tH-XIP"/>
+                                <include reference="Hv8-4d-bQW"/>
+                                <include reference="2wR-sh-l7o"/>
+                                <include reference="ZmJ-Sl-HG2"/>
+                                <include reference="i9f-5n-dPb"/>
+                                <include reference="orb-2J-OJL"/>
+                                <include reference="nx3-2A-qTA"/>
+                                <include reference="poc-pa-Xn5"/>
+                                <include reference="blQ-s4-pg6"/>
+                                <include reference="KLv-vT-PEu"/>
+                                <include reference="gec-E8-PVM"/>
+                                <include reference="aFa-HB-qSp"/>
+                                <include reference="vQv-9l-W13"/>
+                                <include reference="r7m-rq-zwu"/>
+                                <include reference="439-g0-pBd"/>
+                                <include reference="tGC-hl-jE7"/>
+                                <include reference="SYh-IH-ifK"/>
+                                <include reference="kvj-WH-Pva"/>
+                                <include reference="mPb-p7-mnI"/>
+                                <include reference="0iS-fq-bRZ"/>
+                                <include reference="Pt6-6n-hNB"/>
+                                <include reference="EH9-Xl-ht8"/>
+                                <include reference="4fc-6U-8rb"/>
+                                <include reference="flW-pV-zt6"/>
+                                <include reference="oYK-az-WQ8"/>
+                                <include reference="dcw-JM-nRn"/>
+                                <include reference="bwU-HW-4aX"/>
+                                <include reference="UNu-kd-8pq"/>
+                                <include reference="qBD-t1-oRo"/>
+                                <include reference="dyE-IB-VWU"/>
+                                <include reference="JwW-4O-rmg"/>
+                                <include reference="smc-Cg-Y5t"/>
+                                <include reference="n4c-6O-vsX"/>
+                                <include reference="ddW-mq-C8G"/>
+                                <include reference="RYo-Ds-o1N"/>
+                                <include reference="PJM-cL-Wow"/>
+                                <include reference="oUd-F5-Ytl"/>
+                                <include reference="kG1-5F-uLm"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="768" height="1024"/>
+                    <connections>
+                        <outlet property="americanoBtn" destination="9XG-sJ-C86" id="Xwu-pv-f1r"/>
+                        <outlet property="aromaBtn" destination="AzJ-JR-GxZ" id="t00-dX-YxQ"/>
+                        <outlet property="aromaIntensoBtn" destination="024-XI-Rfh" id="Lhy-YE-Tp2"/>
+                        <outlet property="botonesView" destination="4fc-6U-8rb" id="bfp-fn-plt"/>
+                        <outlet property="cafeAuLaitBtn" destination="B9a-Vd-CJH" id="17b-HV-wJA"/>
+                        <outlet property="cambioView" destination="kG1-5F-uLm" id="Y0X-zQ-MbN"/>
+                        <outlet property="cancelar" destination="If9-VA-hn4" id="eyK-ZS-8TV"/>
+                        <outlet property="cancelarPaqueteBtn" destination="RYo-Ds-o1N" id="GZc-Sg-RY1"/>
+                        <outlet property="cancelarPaqueteView" destination="ddW-mq-C8G" id="7Vb-Vf-zqY"/>
+                        <outlet property="cappuccinnoIceBtn" destination="zm5-Ta-yfA" id="dbA-sC-xAw"/>
+                        <outlet property="cappuccinoBtn" destination="oXa-9c-CrJ" id="9iY-eg-b5v"/>
+                        <outlet property="cappuccinoSkinnyBtn" destination="blQ-s4-pg6" id="tul-6Q-xXx"/>
+                        <outlet property="chaiTeaLatteBtn" destination="i9f-5n-dPb" id="sp7-zD-NBc"/>
+                        <outlet property="chococaramelBtn" destination="cJO-Ph-WYe" id="6xz-2t-YLL"/>
+                        <outlet property="chococinoBtn" destination="y83-Xx-ZkQ" id="iub-0u-RMB"/>
+                        <outlet property="coffeeTypeSelectedView" destination="UNu-kd-8pq" id="5I7-Io-vUt"/>
+                        <outlet property="comprar" destination="9hU-aW-lLe" id="XrL-qC-eXC"/>
+                        <outlet property="comprarPaqueteBtn" destination="dyE-IB-VWU" id="QYn-ty-U3U"/>
+                        <outlet property="comprarPaqueteView" destination="qBD-t1-oRo" id="B8c-Ux-Aa5"/>
+                        <outlet property="comprarView" destination="Rnn-T0-m0h" id="lIh-lv-Up6"/>
+                        <outlet property="descripcionView" destination="PiK-Su-cBe" id="8Ym-CT-xB4"/>
+                        <outlet property="despachandoLb" destination="xC6-8C-Fez" id="Mde-3e-T8X"/>
+                        <outlet property="detenerVid" destination="xzK-P9-9AC" id="gPf-3a-9HM"/>
+                        <outlet property="doNothing" destination="r7m-rq-zwu" id="IH9-Bx-Gwa"/>
+                        <outlet property="enviarReporteBtn" destination="bSh-nm-w3L" id="QWi-tq-dr5"/>
+                        <outlet property="espressoBaristaBtn" destination="ZuN-jN-fHN" id="PU4-JT-cRR"/>
+                        <outlet property="espressoBtn" destination="buf-iU-tCW" id="tuO-sd-Th1"/>
+                        <outlet property="espressoCortadoBtn" destination="AKg-21-PUe" id="0Oa-L7-Ko9"/>
+                        <outlet property="espressoDecafBtn" destination="WpA-tH-XIP" id="8Sf-7X-CG3"/>
+                        <outlet property="espressoIntensoBtn" destination="Hv8-4d-bQW" id="hHw-Qz-sMt"/>
+                        <outlet property="flechaDerBtn" destination="aFa-HB-qSp" id="nXf-Md-sFi"/>
+                        <outlet property="flechaIzqBtn" destination="gec-E8-PVM" id="IPq-Wb-BQY"/>
+                        <outlet property="fondoInitView" destination="cD6-dM-0YI" id="m0a-eO-QdF"/>
+                        <outlet property="ingresadoLb" destination="R0g-5A-vJc" id="J6C-xY-aph"/>
+                        <outlet property="ingresar" destination="U7k-iH-HCt" id="syb-M6-Y3h"/>
+                        <outlet property="inicializaLb" destination="ZGR-s4-nJn" id="tSj-cV-TlW"/>
+                        <outlet property="latteCaramelBtn" destination="ZmJ-Sl-HG2" id="XRh-xr-bev"/>
+                        <outlet property="latteMacchiatoBtn" destination="2wR-sh-l7o" id="O1p-Ot-dMq"/>
+                        <outlet property="latteVanillaBtn" destination="poc-pa-Xn5" id="oRe-Il-fSW"/>
+                        <outlet property="llenarTanqueBtn" destination="GH2-UX-Ouz" id="huX-zn-1Ds"/>
+                        <outlet property="lungoBtn" destination="KLv-vT-PEu" id="D19-73-Uf3"/>
+                        <outlet property="lungoDecafBtn" destination="8rQ-9G-Rj6" id="qo0-Bb-N81"/>
+                        <outlet property="lungoIntensoBtn" destination="TyD-P2-tQd" id="kAV-pf-0LZ"/>
+                        <outlet property="marrakeshBtn" destination="orb-2J-OJL" id="VeC-eb-JfT"/>
+                        <outlet property="masBtn" destination="oYK-az-WQ8" id="0Mc-jJ-Ltc"/>
+                        <outlet property="menosBtn" destination="flW-pV-zt6" id="eYh-Fu-Pbz"/>
+                        <outlet property="menuBtn" destination="vQv-9l-W13" id="lfL-Cw-ryO"/>
+                        <outlet property="menuView" destination="8MN-n0-Zfk" id="K8f-FS-H5v"/>
+                        <outlet property="moradoView" destination="m4A-3S-6mQ" id="AOT-2d-adI"/>
+                        <outlet property="pagadoView" destination="smc-Cg-Y5t" id="kYs-BO-C1f"/>
+                        <outlet property="pasosView" destination="fLk-8l-nWh" id="g0v-fF-Gft"/>
+                        <outlet property="passwordText" destination="Z7V-hD-9rM" id="cs5-2x-JSl"/>
+                        <outlet property="plecaView" destination="L3z-8p-0Y8" id="ndI-zl-p89"/>
+                        <outlet property="precioLb" destination="vxp-W6-vHk" id="zG8-MH-8vK"/>
+                        <outlet property="precioPagadoLb" destination="n4c-6O-vsX" id="mj3-fk-fOb"/>
+                        <outlet property="preparaBebidaBtn" destination="tGC-hl-jE7" id="OCA-e6-afD"/>
+                        <outlet property="preparaBebidaView" destination="SYh-IH-ifK" id="dIY-QH-7Oc"/>
+                        <outlet property="preparaPaqueteBtn" destination="kvj-WH-Pva" id="QhO-Pb-uNT"/>
+                        <outlet property="preparaPaqueteView" destination="mPb-p7-mnI" id="3ne-Br-gbM"/>
+                        <outlet property="priceLB" destination="sFJ-GW-LGb" id="VKE-SD-0qn"/>
+                        <outlet property="pruebaLb" destination="oUd-F5-Ytl" id="wNh-Gq-Nll"/>
+                        <outlet property="pruebaLb2" destination="PJM-cL-Wow" id="7zv-NF-70Y"/>
+                        <outlet property="regresaBebidaBtn" destination="0iS-fq-bRZ" id="SxV-Q8-If4"/>
+                        <outlet property="regresaBebidaView" destination="Pt6-6n-hNB" id="dP7-hU-mTj"/>
+                        <outlet property="regresaPaqueteBtn" destination="JwW-4O-rmg" id="RpP-TP-jtv"/>
+                        <outlet property="ristrettoBtn" destination="nx3-2A-qTA" id="8ux-Tk-W1S"/>
+                        <outlet property="seleccionaView" destination="OxK-4K-dnj" id="IEb-9e-kMH"/>
+                        <outlet property="storePlecaView" destination="439-g0-pBd" id="Mg6-Wu-gwY"/>
+                        <outlet property="tablaVariety" destination="EH9-Xl-ht8" id="qJ0-LE-XNB"/>
+                        <outlet property="textoRecib" destination="Xin-lf-eCs" id="og4-dR-QYw"/>
+                        <outlet property="totalLb" destination="bwU-HW-4aX" id="wEr-C9-EaU"/>
+                        <outlet property="vaciarBtn" destination="FQj-SD-367" id="jKU-6M-Omc"/>
+                        <outlet property="variedadesView" destination="Tbz-bp-dFD" id="sGI-ky-U4v"/>
+                        <outlet property="videoBtn" destination="6WF-xB-8Le" id="Rsg-33-40g"/>
+                        <outlet property="vinetasTotalView" destination="dcw-JM-nRn" id="4qv-XE-1Uk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="276" y="324.75"/>
+        </scene>
+        <!--Vista Alterna View Controller-->
+        <scene sceneID="vFS-wb-bIy">
+            <objects>
+                <viewController storyboardIdentifier="vistaAlt" id="93M-im-EFm" customClass="vistaAlternaViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vJ9-JW-Vqn"/>
+                        <viewControllerLayoutGuide type="bottom" id="8v6-OP-u0u"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="52e-NG-scA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jss-Yn-NEg">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Regresar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="141" y="104" width="91" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="ingresarBtn:" destination="93M-im-EFm" eventType="touchDown" id="dVR-W9-6BH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="jss-Yn-NEg"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="jss-Yn-NEg"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KlF-E0-XHR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="285" y="1113"/>
+        </scene>
+        <!--Vista2 View Controller-->
+        <scene sceneID="u8t-uv-8Np">
+            <objects>
+                <viewController storyboardIdentifier="configuracion" id="3BD-2W-zY1" customClass="vista2ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jsX-lj-tG0"/>
+                        <viewControllerLayoutGuide type="bottom" id="OHV-gh-7Nx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FlI-HA-OMd">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="cmq-wz-txU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="20" width="394" height="786"/>
+                                </variation>
+                                <connections>
+                                    <outlet property="dataSource" destination="3BD-2W-zY1" id="Mkq-kA-Ndo"/>
+                                    <outlet property="delegate" destination="3BD-2W-zY1" id="Xkr-S4-1xW"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evt-d2-xLY">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Regresar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="814" width="121" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="regresarPressed:" destination="3BD-2W-zY1" eventType="touchDown" id="oiQ-YW-UbY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00000000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgK-08-qNy">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="207" y="866" width="164" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lote:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGL-q1-PNk">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="136" y="866" width="42" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caducidad:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O11-og-8Nf">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="87" y="930" width="91" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03-08-2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLN-eR-waK">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="207" y="930" width="116" height="21"/>
+                                </variation>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10000" minValue="0.0" maxValue="20000" translatesAutoresizingMaskIntoConstraints="NO" id="qId-BG-gnd">
+                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="465" y="188" width="238" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="sliderPressed:" destination="3BD-2W-zY1" eventType="valueChanged" id="7xU-VX-C5s"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nivel de Agua:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwS-Ub-jpn">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="491" y="44" width="187" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enviar notificaciones a:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McM-cb-72N">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="456" y="469" width="192" height="21"/>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0V4-qL-7pM">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="443" y="553" width="269" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="mailEntered:" destination="3BD-2W-zY1" eventType="editingDidEndOnExit" id="flh-yy-DjP"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mck-Cf-Ut6">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Nuevo Garrafón">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="473" y="331" width="223" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="nivelLlenoPressed:" destination="3BD-2W-zY1" eventType="touchDown" id="IuU-7D-maG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0aD-3R-JI1">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Cambiar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="297" y="814" width="113" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="adelante:" destination="3BD-2W-zY1" eventType="touchDown" id="QXb-yb-Fii"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="cmq-wz-txU"/>
+                                <exclude reference="Evt-d2-xLY"/>
+                                <exclude reference="RgK-08-qNy"/>
+                                <exclude reference="NGL-q1-PNk"/>
+                                <exclude reference="O11-og-8Nf"/>
+                                <exclude reference="bLN-eR-waK"/>
+                                <exclude reference="qId-BG-gnd"/>
+                                <exclude reference="FwS-Ub-jpn"/>
+                                <exclude reference="McM-cb-72N"/>
+                                <exclude reference="0V4-qL-7pM"/>
+                                <exclude reference="mck-Cf-Ut6"/>
+                                <exclude reference="0aD-3R-JI1"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="cmq-wz-txU"/>
+                                <include reference="Evt-d2-xLY"/>
+                                <include reference="RgK-08-qNy"/>
+                                <include reference="NGL-q1-PNk"/>
+                                <include reference="O11-og-8Nf"/>
+                                <include reference="bLN-eR-waK"/>
+                                <include reference="qId-BG-gnd"/>
+                                <include reference="FwS-Ub-jpn"/>
+                                <include reference="McM-cb-72N"/>
+                                <include reference="0V4-qL-7pM"/>
+                                <include reference="mck-Cf-Ut6"/>
+                                <include reference="0aD-3R-JI1"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="768" height="1024"/>
+                    <connections>
+                        <outlet property="animAgua" destination="qId-BG-gnd" id="qLN-nr-qn4"/>
+                        <outlet property="fechaLb" destination="bLN-eR-waK" id="oSN-nY-iM9"/>
+                        <outlet property="loteLb" destination="RgK-08-qNy" id="5tu-zx-3Je"/>
+                        <outlet property="mailText" destination="0V4-qL-7pM" id="ZYp-1Y-TiE"/>
+                        <outlet property="nivelLb" destination="FwS-Ub-jpn" id="LxO-nT-t0e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yvl-M9-gMW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="896.25" y="339"/>
+        </scene>
+        <!--Vista3 View Controller-->
+        <scene sceneID="rGA-qv-I37">
+            <objects>
+                <viewController storyboardIdentifier="variedades" id="25S-O9-9h3" customClass="vista3ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Sw-YB-7pS"/>
+                        <viewControllerLayoutGuide type="bottom" id="mgf-KN-JZb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y6c-y2-WdY">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="SL1-cr-wcJ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="112" width="373" height="865"/>
+                                </variation>
+                                <connections>
+                                    <outlet property="dataSource" destination="25S-O9-9h3" id="dnw-z9-4f3"/>
+                                    <outlet property="delegate" destination="25S-O9-9h3" id="OdT-zO-EXl"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona un producto" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENy-l3-MRq">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="451" y="112" width="250" height="21"/>
+                                </variation>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Go6-9o-4h2">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="451" y="199" width="259" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="loteIngresado:" destination="25S-O9-9h3" eventType="editingDidEndOnExit" id="rRz-U7-4qm"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lote" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ObB-Se-5yd">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="451" y="162" width="42" height="21"/>
+                                </variation>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="bdz-AI-yDv">
+                                <rect key="frame" x="-160" y="-81" width="320" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="460352346.55915397">
+                                    <!--2015-08-04 03:39:06 +0000-->
+                                </date>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="451" y="444" width="259" height="63"/>
+                                </variation>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fecha de caducidad" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgT-X0-tZr">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="451" y="374" width="164" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydy-s2-7ah">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Aceptar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="424" y="752" width="108" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="aceptarPressed:" destination="25S-O9-9h3" eventType="touchDown" id="CGw-qI-Ibi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Producto para slot: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tT7-gc-Suo">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="42" width="373" height="62"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sf2-t2-kdS">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Cancelar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="612" y="752" width="117" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="cancelarPressed:" destination="25S-O9-9h3" eventType="touchDown" id="wXL-9T-ugO"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEY-zD-izr">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="497" y="616" width="166" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="SL1-cr-wcJ"/>
+                                <exclude reference="ENy-l3-MRq"/>
+                                <exclude reference="Go6-9o-4h2"/>
+                                <exclude reference="ObB-Se-5yd"/>
+                                <exclude reference="bdz-AI-yDv"/>
+                                <exclude reference="DgT-X0-tZr"/>
+                                <exclude reference="Ydy-s2-7ah"/>
+                                <exclude reference="tT7-gc-Suo"/>
+                                <exclude reference="sf2-t2-kdS"/>
+                                <exclude reference="UEY-zD-izr"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="SL1-cr-wcJ"/>
+                                <include reference="ENy-l3-MRq"/>
+                                <include reference="Go6-9o-4h2"/>
+                                <include reference="ObB-Se-5yd"/>
+                                <include reference="bdz-AI-yDv"/>
+                                <include reference="DgT-X0-tZr"/>
+                                <include reference="Ydy-s2-7ah"/>
+                                <include reference="tT7-gc-Suo"/>
+                                <include reference="sf2-t2-kdS"/>
+                                <include reference="UEY-zD-izr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="768" height="1024"/>
+                    <connections>
+                        <outlet property="datoLb" destination="ENy-l3-MRq" id="jff-Vp-oZp"/>
+                        <outlet property="fechaPicker" destination="bdz-AI-yDv" id="3Mb-ha-FPF"/>
+                        <outlet property="lblDateDisplay" destination="UEY-zD-izr" id="IL7-Ta-0fE"/>
+                        <outlet property="loteText" destination="Go6-9o-4h2" id="1Kx-ZV-Los"/>
+                        <outlet property="slotEnEdicion" destination="tT7-gc-Suo" id="b83-6e-xMj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tkN-Cm-Q6f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1519.5" y="345"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lQa-G9-jYi">
+            <objects>
+                <viewController id="Xfg-YX-Ctc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LhG-8z-nPZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Whc-Cq-6Il"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8V3-KB-LxP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rC6-B5-XUb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="920.25" y="-451.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GOb-Mg-TdV">
+            <objects>
+                <viewController id="RIq-NL-aP1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AJj-7n-NCc"/>
+                        <viewControllerLayoutGuide type="bottom" id="G5F-M4-bJb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KY9-NT-aHI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wbl-RR-JpI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1536" y="-452.25"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="q2o-Mg-iOh">
+            <objects>
+                <viewController id="Nok-7d-iYT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iaP-eh-MOk"/>
+                        <viewControllerLayoutGuide type="bottom" id="gj3-C4-tn8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vz2-x0-vUb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p2a-Qw-bKE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AMERICANO.png" width="315" height="408"/>
+        <image name="AROMA.png" width="315" height="408"/>
+        <image name="BOTONES_MENOS_MAS.png" width="1536" height="2049"/>
+        <image name="BOTON_CANCELAR.png" width="1536" height="2049"/>
+        <image name="BOTON_COMPRAR.png" width="1536" height="2049"/>
+        <image name="BOTON_COMPRA_PAQUETE_2.png" width="1536" height="2049"/>
+        <image name="BOTON_PRECIO_COMPRA_CAPPUCCINO.png" width="1536" height="2048"/>
+        <image name="BOTON_PREPARA_BEBIDA_2.png" width="1536" height="2049"/>
+        <image name="BOTON_PREPARA_BEBIDA_3.png" width="1536" height="2049"/>
+        <image name="BOTON_REGRESA_PAQUETE2.png" width="644" height="163"/>
+        <image name="CAFE-AU-LAIT.png" width="315" height="408"/>
+        <image name="CAMBIO_LB.png" width="1079" height="1440"/>
+        <image name="CAPPUCCINO-ICE.png" width="315" height="408"/>
+        <image name="CAPPUCCINO-LIGHT.png" width="315" height="408"/>
+        <image name="CAPPUCCINO.png" width="315" height="408"/>
+        <image name="CHOCOCARAMEL.png" width="315" height="408"/>
+        <image name="CHOCOCINO.png" width="315" height="408"/>
+        <image name="CORTADO.png" width="315" height="408"/>
+        <image name="DESCRIPCION_BARISTA.png" width="1536" height="2048"/>
+        <image name="ESPRESSO-BARISTA-OK.png" width="315" height="408"/>
+        <image name="ESPRESSO-DECAF.png" width="315" height="408"/>
+        <image name="ESPRESSO-INTENSO.png" width="315" height="408"/>
+        <image name="ESPRESSO.png" width="315" height="408"/>
+        <image name="FONDO_MORADO.png" width="1536" height="2049"/>
+        <image name="GRANDE_INTENSO.png" width="315" height="408"/>
+        <image name="HOLA.png" width="1536" height="2049"/>
+        <image name="LATTE-MACCHIATO-CARAMEL.png" width="315" height="408"/>
+        <image name="LATTE-MACCHIATO.png" width="315" height="408"/>
+        <image name="LATTE-TE-CHAI.png" width="315" height="408"/>
+        <image name="LUNGO DECAFFEINATO.png" width="315" height="408"/>
+        <image name="LUNGO INTENSO.png" width="315" height="408"/>
+        <image name="LUNGO.png" width="315" height="408"/>
+        <image name="MARRAKESH-STYLE-TEA-OK.png" width="315" height="408"/>
+        <image name="PAGADO_PRECIO2.png" width="1536" height="2049"/>
+        <image name="PASO1_5.png" width="1536" height="2048"/>
+        <image name="PLECA_LOGO.png" width="1536" height="2049"/>
+        <image name="RISTRETTO-ARDENZA.png" width="315" height="408"/>
+        <image name="VAINILLA-LATTE-MACHIATTO-CAFE.png" width="315" height="408"/>
+        <image name="VARIEDADES.png" width="1536" height="2048"/>
+        <image name="VINETAS_TOTAL_2.png" width="1536" height="2049"/>
+        <image name="boton_seleccionar.png" width="465" height="465"/>
+        <image name="flecha_adelante_blanca_big.png" width="77" height="77"/>
+        <image name="flecha_atras_blanca_big.png" width="55" height="55"/>
+        <image name="menu_palabra_gris.png" width="160" height="54"/>
+    </resources>
+</document>

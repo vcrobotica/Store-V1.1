@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>productosVariety</key>
+	<array>
+		<string>Americano</string>
+		<string>Cafe Au Lait</string>
+		<string>Cappuccino</string>
+		<string>Cappuccino Ice</string>
+		<string>Cappuccino Skinny</string>
+		<string>Chai Tea Latte</string>
+		<string>Choco Caramel</string>
+		<string>Chococino</string>
+		<string>Cortado</string>
+		<string>Espresso</string>
+		<string>Espresso Barista</string>
+		<string>Espresso Decaffeinato</string>
+		<string>Espresso Intenso</string>
+		<string>Espresso Ristretto</string>
+		<string>Grande Aroma</string>
+		<string>Grande Intenso</string>
+		<string>Latte Macchiato</string>
+		<string>Latte Macchiato Caramel</string>
+		<string>Latte Macchiato Vanilla</string>
+		<string>Lungo</string>
+		<string>Lungo Decaffeinato</string>
+		<string>Lungo Intenso</string>
+		<string>Marrakesh Style Tea</string>
+	</array>
+</dict>
+</plist>

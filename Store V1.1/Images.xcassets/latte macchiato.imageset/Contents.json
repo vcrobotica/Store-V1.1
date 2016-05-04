@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "dolce_gusto_latte_machiato.jpg"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "dolce_gusto_latte_machiato@2x.jpg"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "dolce_gusto_latte_machiato@3x.jpg"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

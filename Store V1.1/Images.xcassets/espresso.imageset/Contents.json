@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "el-mas-buscado-capsulas-expresso-dolce-gusto-x16-hay-stock-4179-MLA2838670292_062012-O.jpg"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "el-mas-buscado-capsulas-expresso-dolce-gusto-x16-hay-stock-4179-MLA2838670292_062012-O@2x.jpg"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "el-mas-buscado-capsulas-expresso-dolce-gusto-x16-hay-stock-4179-MLA2838670292_062012-O@3x.jpg"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

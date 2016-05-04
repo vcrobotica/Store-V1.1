@@ -1,0 +1,25 @@
+mv “PASO2_15.png”? PASO2_15.png 
+mv  “PASO3_15.png”
+mv  “PASO4_15.png”
+mv  “PASO5_15.png”
+mv  “PASO6_15.png”
+mv  “PASO7_15.png”
+mv  “PASO8_15.png”
+mv  “PASO9_15.png”
+mv  “PASO10_15.png”
+mv  “PASO11_15.png”
+mv  “PASO12_15.png”
+mv  “PASO13_15.png”
+mv  “PASO14_15.png”
+mv  “PASO15_15.png”
+mv  “PASO16_15.png”
+mv  “PASO17_15.png”
+mv  “PASO18_15.png”
+mv  “PASO19_15.png”
+mv  “PASO20_15.png”
+mv  “PASO21_15.png”
+mv  “PASO22_15.png”
+mv  “PASO23_15.png”
+mv  “PASO24_15.png”
+mv  “PASO25_15.png”
+mv  “PASO26_15.png”
